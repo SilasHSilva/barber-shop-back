@@ -1,5 +1,5 @@
 CREATE TABLE SCHEDULES (
-    id BIGINT not null primary key,
+    id BIGINT AUTO_INCREMENT not null primary key,
     start_at timestamp not null,
     end_at timestamp not null,
     client_id BIGINT not null,
